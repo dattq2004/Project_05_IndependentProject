@@ -62,6 +62,20 @@ h6 {
     color: #696d76;
 }
 
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 113px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
 /* ============== Header ============== */
 
 .header {
@@ -120,18 +134,4 @@ h6 {
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.75;
-}
-
-.header__cta--signup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 113px;
-    height: 52px;
-    font-weight: 600;
-    font-size: 1.6rem;
-    line-height: 1.75;
-    border-radius: 6px;
-    background-color: var(--primary-color);
-    color: #fff;
 }
