@@ -61,3 +61,77 @@ h6 {
     letter-spacing: 0%;
     color: #696d76;
 }
+
+/* ============== Header ============== */
+
+.header {
+    padding-top: 42px;
+}
+
+.header__inner {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.navbar {
+}
+
+.navbar__list {
+    display: flex;
+    gap: 48px;
+}
+
+.navbar__link {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #696d76;
+}
+
+.navbar__link--active {
+    position: relative;
+    color: var(--primary-color);
+    padding-bottom: 4px;
+}
+
+.navbar__link--active::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 47px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #7264d6;
+}
+
+.header__cta {
+    margin-left: auto;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+.header__cta--login {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+
+.header__cta--signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 113px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
