@@ -77,6 +77,11 @@ h6 {
     color: #fff;
 }
 
+.btn:hover {
+    opacity: 0.8;
+    transition: 0.9s;
+}
+
 /* ============== Header ============== */
 
 .header {
