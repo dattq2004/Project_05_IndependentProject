@@ -340,7 +340,6 @@ h6 {
 
 .hero__item {
     display: flex;
-    column-gap: 14px;
     align-items: center;
 }
 
@@ -355,7 +354,7 @@ h6 {
 }
 
 .hero__item--center {
-    margin-right: 14px;
+    margin-left: 14px;
 }
 
 .hero__item--center,
@@ -374,6 +373,7 @@ h6 {
     font-size: 1.4rem;
     line-height: 1;
     letter-spacing: 0%;
+    color: var(--primary-color);
 }
 
 .hero__item--bland {
@@ -686,4 +686,41 @@ h6 {
 .payment__card--detail {
     margin-top: 18px;
     font-size: 2.2rem;
+}
+
+.payment__sendmoney {
+    position: absolute;
+    bottom: 284px;
+    left: 294px;
+    display: flex;
+    align-items: center;
+    width: 276px;
+    height: 86px;
+    background-color: #fff;
+    padding: 23px 13px;
+    border-radius: 12px;
+    box-shadow: 0px 14px 38px 0px #00000012;
+}
+
+.payment__item--bold {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--primary-color);
+}
+
+.payment__money {
+    font-size: 1.6rem;
+}
+
+.payment__item--bland {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #696d76;
 }
