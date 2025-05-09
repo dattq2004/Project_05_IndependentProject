@@ -354,12 +354,19 @@ h6 {
     background-color: #eff8fb;
 }
 
-.hero__item--content {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-    column-gap: calc(100% - (100% - content));
+.hero__item--center {
+    margin-right: 14px;
+}
+
+.hero__item--center,
+.hero__item--right {
+    display: flex;
+    flex-direction: column;
     row-gap: 6px;
+}
+
+.hero__item--right {
+    margin-left: auto;
 }
 
 .hero__item--bold {
