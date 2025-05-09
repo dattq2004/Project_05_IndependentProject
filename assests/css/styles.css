@@ -476,8 +476,8 @@ h6 {
 
 .works__inner {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    column-gap: 230px;
 }
 
 .works__img--wrap {
@@ -568,4 +568,20 @@ h6 {
     letter-spacing: 0%;
     color: #696d76;
     margin-top: 5px;
+}
+
+.work__list {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.work__item--heading {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1.45;
+    letter-spacing: 0%;
+    color: var(--primary-color);
+    margin-bottom: 16px;
 }
