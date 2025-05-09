@@ -473,3 +473,99 @@ h6 {
     letter-spacing: 0%;
 }
 /* ============== How It Works ============== */
+
+.works__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works__img--wrap {
+    position: relative;
+}
+
+.works__img--img {
+    padding-left: 7px;
+}
+
+.works__img--wrap::before {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    content: url(/assests/img/work-deco.svg);
+}
+
+.bank__outer {
+    position: absolute;
+    top: 76px;
+    left: 334px;
+    width: 64px;
+    height: 64px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works__img--bank {
+    background-color: #fff;
+    padding: 9px 6px;
+    border-radius: 4px;
+}
+
+.works__img--congratulations {
+    position: absolute;
+    left: 334px;
+    bottom: 96px;
+    width: 226px;
+    height: 70px;
+    padding: 15px 30px 15px 15px;
+    background-color: #fffdfa;
+    box-shadow: 0px 14px 34px 0px #00000012;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 8px;
+}
+
+.tick__outer {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: #4ab5e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.tick__inner {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.congratulations__content--title {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #212832;
+}
+
+.congratulations__content--desc {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #696d76;
+    margin-top: 5px;
+}
