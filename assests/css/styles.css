@@ -82,6 +82,50 @@ h6 {
     transition: 0.9s;
 }
 
+.card {
+    background-color: var(--secondary-color);
+    color: #fff;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.card__logo {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.card__value {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.card__info {
+    margin-top: 38px;
+    display: flex;
+    column-gap: 12px;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.card__detail {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
 .subtitle {
     position: relative;
     display: flex;
@@ -247,45 +291,7 @@ h6 {
     border-radius: 20px;
     width: 250px;
     height: 150px;
-    background-color: var(--secondary-color);
     padding: 16px;
-    color: #fff;
-}
-
-.card__logo {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-}
-
-.card__value {
-    display: inline-block;
-    margin-top: 10px;
-    font-weight: 700;
-    font-size: 2.2rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-}
-
-.card__info {
-    margin-top: 38px;
-    display: flex;
-    column-gap: 12px;
-}
-
-.card__text {
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 100%;
-    letter-spacing: 0%;
-}
-
-.card__detail {
-    margin-top: 5px;
-    font-weight: 600;
-    font-size: 1.2rem;
-    line-height: 100%;
-    letter-spacing: 0%;
 }
 
 .hero__right--content {
@@ -591,6 +597,7 @@ h6 {
 
 .payment__inner {
     display: flex;
+    column-gap: 130px;
 }
 
 .payment__left {
@@ -629,4 +636,47 @@ h6 {
 
 .payment__cta {
     min-width: 149px;
+}
+
+.payment__right {
+    margin-top: 86px;
+}
+
+.payment__card {
+    position: relative;
+    width: 482px;
+    height: 322px;
+    padding: 38px;
+}
+
+.payment__main-balance {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.payment__card--logo {
+    top: 38px;
+    right: 38px;
+}
+
+.payment__card--value {
+    font-size: 3.2rem;
+    margin-top: 20px;
+}
+
+.payment__card--info {
+    position: absolute;
+    bottom: 38px;
+    left: 38px;
+}
+
+.payment__card--text {
+    font-size: 2rem;
+}
+
+.payment__card--detail {
+    margin-top: 18px;
+    font-size: 2.2rem;
 }
