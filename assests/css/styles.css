@@ -1005,21 +1005,28 @@ h6 {
 
 .update__item:hover {
     transform: translateY(-10px);
-    transition: 0.8s;
+    transition: 0.25s;
     border: none;
     box-shadow: 0px 20px 50px 0px #00000012;
 }
 
 .update__img--wrap {
+    overflow: hidden;
     width: 160px;
     height: 160px;
+    transition: 0.25s;
+    border-radius: 12px;
 }
 
 .update__img {
     width: 100%;
-    height: 100%;
+    height: 160px;
     border-radius: 12px;
     object-fit: cover;
+}
+
+.update__img:hover {
+    transform: scale(1.1);
 }
 
 .update__content--date {
