@@ -20,6 +20,21 @@ body {
 
 /* ============== Common ============== */
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
 a {
     text-decoration: none;
 }
@@ -1029,6 +1044,10 @@ h6 {
     transform: scale(1.1);
 }
 
+.update__content {
+    width: 322px;
+}
+
 .update__content--date {
     font-weight: 400;
     font-size: 1.4rem;
@@ -1038,7 +1057,7 @@ h6 {
 }
 
 .update__content--main {
-    width: 322px;
+    /* width: 322px; */
     margin-top: 15px;
     margin-bottom: 25px;
     font-weight: 600;
