@@ -1078,3 +1078,66 @@ h6 {
 .update__link:hover {
     color: #7264d6;
 }
+
+/* ============== Download ============== */
+
+.download__inner {
+    position: relative;
+    background: var(--secondary-color);
+    border-radius: 24px;
+    padding: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.download--subtitle {
+    color: #fff;
+}
+
+.download--heading {
+    color: #fff;
+    margin-top: 12px;
+}
+
+.download--desc {
+    width: 435px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.download--subtitle.subtitle::before {
+    background: #fff;
+}
+
+.download__cta--wrap {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.download__link {
+    min-width: 182px;
+    height: 64px;
+    background: #fff;
+}
+
+.download__decor {
+    position: absolute;
+    top: 49px;
+    left: 112px;
+}
+
+.download__decor:nth-of-type(2) {
+    left: 904px;
+}
+
+.download__decor:nth-of-type(3) {
+    top: 263px;
+    left: 166px;
+}
+.download__decor:nth-of-type(4) {
+    top: 263px;
+    left: 850px;
+}
